@@ -1,0 +1,17 @@
+Header. Logo e nome à esquerda. Já está certo.
+Nav na mesma linha, à direita. Início, Quem Somos, Notícias, Contato, Parceiros, Transparência, Aprenda e Coletas descem na própria index. Seja um apoiador aponta para a página de cadastro, que ainda não será feita.
+Faixa curta: associação em formação.
+Quem Somos. Texto curto e chamativo: quem é a associação, o que faz na coleta seletiva de Guaramiranga e o botão Saber mais, que abre paginas/quemsomos.html.
+Bloco institucional, no lugar da diretoria com nomes. Entra o que uma associação mostra na ficha, sem copiar o da AMSA:
+Associação dos Catadores de Materiais Recicláveis de Guaramiranga
+Nome fantasia: GuaráSustentável
+CNPJ: em formação
+Sede: Pé de Ladeira, Guaramiranga-CE
+CEP: o 62.760-000 é de Baturité, não entra. O de Guaramiranga começa em 62766-000 e fica vazio até você confirmar.
+E-mail e WhatsApp (85) 98921-4864
+Horário: 7h às 16h, com aberto ou fechado
+Botões de Instagram, e-mail e WhatsApp
+Tire suas dúvidas, com os mesmos dois contatos
+Sem nome de presidente, secretário ou tesoureiro
+
+Footer só com a frase de crédito, o link https://github.com/joota2500 e direitos reservados.

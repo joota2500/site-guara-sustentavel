@@ -1,0 +1,23 @@
+A página Quem Somos segue o visual da index: header igual, texto justificado e footer só com o crédito.
+
+**Já tem**
+- 🏔️ Texto da associação e da serra
+- ⚖️ Leis 12.305/2010, Decreto 10.936/2022, Lei cearense 16.032/2016 e Lei 14.026/2020
+- 📋 Ficha: nome, Guaramiranga, Pé de Ladeira, CNPJ em formação, e-mail e WhatsApp
+- ⏳ Cronograma e contador desde 05/10/2026
+- 👥 Diretoria só com os cargos, sem nome e sem foto
+- ❓ FAQ no JavaScript, com Ver mais e Fechar
+- 💬 Dúvida por e-mail e WhatsApp
+- 🔗 Botão Ver todos os associados
+
+**Entra agora, no mesmo estilo**
+- 🎨 Cores, letra e responsivo iguais à index
+- 📄 Mais texto justificado sobre o trabalho da coleta
+- 🏷️ Faixa de associação em formação
+- 🦶 Footer só com crédito e GitHub
+
+**Pode entrar depois**
+- 🗓️ Cronograma editável pelo administrador
+- 🖼️ Foto da diretoria, só com autorização
+- 📁 Estatuto, quando existir
+- 📑 Abas: história, cronograma, diretoria e dados

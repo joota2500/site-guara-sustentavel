@@ -1,0 +1,88 @@
+.menu-button {
+    display: none;
+    width: 42px;
+    height: 42px;
+    margin-left: auto;
+    border: 1px solid rgba(243, 239, 228, 0.28);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu-button span,
+.menu-button span::before,
+.menu-button span::after {
+    display: block;
+    width: 16px;
+    height: 2px;
+    margin-inline: auto;
+    background: var(--areia);
+    content: "";
+}
+
+.menu-button span::before,
+.menu-button span::after { position: relative; }
+.menu-button span::before { top: -6px; }
+.menu-button span::after { top: 4px; }
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list a {
+    color: var(--areia);
+    font-size: 0.88rem;
+    font-weight: 650;
+    white-space: nowrap;
+}
+
+.nav-button {
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: #c4492c;
+    color: white !important;
+}
+
+.submenu { position: relative; }
+
+.submenu-list {
+    position: absolute;
+    top: calc(100% + 0.7rem);
+    left: 0;
+    display: none;
+    min-width: 200px;
+    margin: 0;
+    padding: 0.6rem;
+    list-style: none;
+    background: var(--areia);
+    border-radius: 0.8rem;
+    box-shadow: var(--sombra);
+}
+
+.submenu-list a { color: var(--texto); }
+.submenu:hover .submenu-list,
+.submenu.aberto .submenu-list { display: grid; gap: 0.3rem; }
+
+@media (max-width: 1080px) {
+    .menu-button { display: grid; place-items: center; }
+
+    .nav-list {
+        position: absolute;
+        top: calc(var(--header) + 0.35rem);
+        right: 0.7rem;
+        left: 0.7rem;
+        display: none;
+        padding: 0.8rem;
+        background: var(--serra-escura);
+        border-radius: 0.9rem;
+    }
+
+    .nav-list.aberto { display: grid; gap: 0.7rem; }
+    .submenu-list { position: static; background: transparent; box-shadow: none; }
+    .submenu-list a { color: var(--areia); }
+}

@@ -1,0 +1,54 @@
+.quemsomos {
+    width: min(var(--largura), calc(100% - 1.4rem));
+    margin: 1.2rem auto;
+}
+
+.quemsomos .bloco,
+.quemsomos .etapa {
+    margin-bottom: 0.8rem;
+    padding: 1rem;
+    background: #f7f4ec;
+    border-top: 4px solid var(--serra);
+    border-radius: 1rem;
+}
+
+.quemsomos h1,
+.quemsomos h2 {
+    margin: 0 0 0.5rem;
+    color: var(--serra-escura);
+}
+
+.quemsomos h1 { font-size: clamp(1.45rem, 3vw, 2.2rem); }
+
+.quemsomos p,
+.quemsomos .etapa strong {
+    color: var(--pedra);
+    text-align: justify;
+    hyphens: auto;
+}
+
+.quemsomos .cronograma,
+.quemsomos .diretoria { display: grid; gap: 0.7rem; }
+.quemsomos .diretoria { grid-template-columns: repeat(3, 1fr); margin: 0.8rem 0; }
+.quemsomos .diretoria article { padding: 0.8rem; background: #f7f4ec; border-radius: 0.8rem; }
+.quemsomos .diretoria span,
+.quemsomos .etapa span { display: block; color: var(--serra); font-size: 0.86rem; text-align: left; }
+.feito { border-left: 6px solid #2f8f4e; }
+.andamento { border-left: 6px solid #c48a2a; }
+.falta { border-left: 6px solid #c4492c; }
+
+.quemsomos .perguntas { display: grid; gap: 0.6rem; }
+.quemsomos .pergunta { padding: 0.85rem; background: #f7f4ec; border-radius: 0.8rem; }
+.quemsomos .pergunta button { width: 100%; border: 0; background: transparent; color: var(--serra-escura); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
+.quemsomos .pergunta p { margin: 0.6rem 0 0; }
+
+.quemsomos .acoes-faq { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.7rem 0 1rem; }
+.quemsomos .acoes-faq button,
+.quemsomos .acao { display: inline-flex; min-height: 42px; align-items: center; padding: 0.6rem 0.9rem; border: 0; border-radius: 999px; background: var(--serra); color: white; font-size: 0.92rem; font-weight: 750; cursor: pointer; }
+.quemsomos .acao-clara { background: transparent; border: 1px solid var(--serra); color: var(--serra); }
+
+@media (max-width: 760px) {
+    .quemsomos h1 { font-size: 1.35rem; }
+    .quemsomos h2 { font-size: 1.15rem; }
+    .quemsomos .diretoria { grid-template-columns: 1fr; }
+}

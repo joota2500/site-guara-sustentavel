@@ -1,0 +1,38 @@
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: var(--serra-escura);
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: min(1180px, calc(100% - 1.2rem));
+    min-height: var(--header);
+    margin-inline: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-width: 0;
+}
+
+.logo img {
+    width: 42px;
+    height: 42px;
+    mix-blend-mode: screen;
+    object-fit: cover;
+}
+
+.logo span { display: grid; line-height: 1.05; }
+.logo strong { color: var(--areia); font-size: 0.98rem; }
+.logo small { color: rgba(243, 239, 228, 0.72); font-size: 0.72rem; }
+
+@media (max-width: 760px) {
+    .logo strong { font-size: 0.9rem; }
+}
